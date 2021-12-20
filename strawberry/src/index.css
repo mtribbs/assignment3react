@@ -13,6 +13,15 @@ code {
     monospace;
 }
 
+.container {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 
 .pagetitle {
   color: #dc2549;
@@ -35,7 +44,7 @@ code {
   padding: 1rem;
   font-family: sans-serif;
   font-size: 20px;
-  color: black;
+  color: whitesmoke;
 }
 
 .menubtn {
@@ -44,7 +53,7 @@ code {
   border-radius: 8px;
   background-color:#dc2549;
   width: 5rem;
-  color: black;
+  color: whitesmoke;
 }
 
 .dropdown {
@@ -53,4 +62,33 @@ code {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40vh;
+  padding: 1rem;
+  width: fit-content;
+  border: 3px solid #dc2549;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.formlabel {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitbtn {
+  background-color: #dc2549;
+  color: whitesmoke;
+  border: none;
+  height: 40px;
+  width: 80px;
+  align-self: center;
+  margin: 1rem;
+  cursor: pointer;
 }

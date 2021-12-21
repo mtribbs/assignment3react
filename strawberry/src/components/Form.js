@@ -3,20 +3,20 @@
 const Form = () => {
     return (
         <form className="form">
-            <p>Sign up for a free 7 days trial!</p>
-            <label className="formlabel">
+            <p>Register below for a 7 days free trial!</p>
+            <label className="form__label">
                 First name:
                 <input type="text" name="fname" />
             </label>
-            <label className="formlabel">
+            <label className="form__label">
                 Last name:
                 <input type="text" name="lname" />
             </label>
-            <label className="formlabel">
+            <label className="form__label">
                 Email:
                 <input type="email" name="email" />
             </label>
-            <input type="submit" value="Submit" className="submitbtn"/>
+            <input type="submit" value="Submit" className="btn--submit"/>
         </form>
     );
 };

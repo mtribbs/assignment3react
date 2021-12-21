@@ -23,8 +23,23 @@ code {
   margin: auto;
 }
 
-.pagetitle {
+.title--home {
   color: #dc2549;
+}
+
+.title--signup {
+  color: #dc2549; 
+}
+
+.btn--signup {
+  background-color: #dc2549;
+  color: whitesmoke;
+  border: none;
+  height: 40px;
+  width: 100px;
+  align-self: center;
+  margin: 1rem;
+  border-radius: 6px;
 }
 
 .menu {
@@ -32,7 +47,7 @@ code {
   position: fixed;
 }
 
-.menulist {
+.menu__list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -40,14 +55,16 @@ code {
   justify-content: space-around;
 }
 
-.listitem {
-  padding: 1rem;
+.list__item {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: sans-serif;
   font-size: 20px;
   color: whitesmoke;
 }
 
-.menubtn {
+.menu__btn {
   cursor: pointer;
   border: none;
   border-radius: 8px;
@@ -77,12 +94,12 @@ code {
   border-bottom-right-radius: 20px;
 }
 
-.formlabel {
+.form__label {
   display: flex;
   flex-direction: column;
 }
 
-.submitbtn {
+.btn--submit {
   background-color: #dc2549;
   color: whitesmoke;
   border: none;

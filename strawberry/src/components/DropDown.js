@@ -2,10 +2,10 @@
 const DropDown = () => {
     return (
         <div className="dropdown">
-            <ul className="menulist">
-                <li className="listitem">About</li>
-                <li className="listitem">Subsription</li>
-                <li className="listitem">Contact</li>
+            <ul className="menu__list">
+                <li className="list__item">About</li>
+                <li className="list__item">Subsription</li>
+                <li className="list__item">Contact</li>
             </ul>
         </div>
     );

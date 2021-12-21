@@ -1,9 +1,12 @@
-import Form from "./Form";
+import SignUpBtn from "./SignUpBtn";
 
 const SignUp = () => {
-    <div>
-        <Form></Form>
-    </div>
-}
+    return (
+        <div>
+            <h2 className="title--signup">Want a 7 days free trial?</h2>
+            <SignUpBtn></SignUpBtn>
+        </div>
+    );
+};
 
 export default SignUp;

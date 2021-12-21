@@ -3,7 +3,7 @@
 const MenuBtn = () => {
     return (
         <div>
-            <button className="menubtn">insert bars</button>
+            <button className="menu__btn">insert bars</button>
         </div>
     );
 }

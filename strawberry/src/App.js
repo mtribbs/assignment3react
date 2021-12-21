@@ -12,7 +12,6 @@ function App() {
       <div className="main">
       <Home></Home>
       <SignUp></SignUp>
-      <Form></Form>
       </div>
     </div>
   );

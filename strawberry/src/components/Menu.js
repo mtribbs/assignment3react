@@ -6,7 +6,7 @@ import DropDown from "./DropDown";
 const Menu = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
-    let menuRef = useRef();
+    const menuRef = useRef();
 
     useEffect(() => {
         document.addEventListener("click", (menuClick) => {
